@@ -1,0 +1,6 @@
+# Netlify Redirects & Clean URLs
+/terms        /terms.html       200
+/privacy      /privacy.html     200
+
+# 404 Page
+/*            /404.html         404

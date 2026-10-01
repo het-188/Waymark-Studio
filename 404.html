@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found — Waymark Studio</title>
+  <meta name="description" content="The page you are looking for does not exist or has been moved." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="legal.css" />
+  <link rel="icon" type="image/png" href="fav-icon.png" />
+  <link rel="apple-touch-icon" href="fav-icon.png" />
+</head>
+<body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="icon-waymark" viewBox="0 0 36 42">
+      <polygon points="18,1 35,33 1,33" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+      <line x1="18" y1="12" x2="18" y2="27" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="18" cy="30" r="2.5" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-arrow-ne" viewBox="0 0 16 16">
+      <path d="M4 12L12 4M12 4H6M12 4V10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header scrolled" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Waymark Studio — Back to Home">
+        <img src="logo.png" alt="Waymark Logo" class="site-logo-img" onerror="this.style.display='none'; var s=this.nextElementSibling; if(s) s.style.display='inline-flex';" onload="this.style.display='block'; var s=this.nextElementSibling; if(s) s.style.display='none';" />
+        <svg class="logo-icon fallback-logo-icon" aria-hidden="true" focusable="false" style="display:none;">
+          <use href="#icon-waymark"/>
+        </svg>
+        <span class="brand-name">
+          <span class="brand-name-bold">Waymark</span>
+          <span class="brand-name-normal">Studio</span>
+        </span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#process">Process</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+      </nav>
+      <a href="index.html#contact" class="btn btn-primary btn-sm header-cta">Start a Project</a>
+    </div>
+  </header>
+
+  <main class="legal-page" id="main-content" style="display:flex; align-items:center; min-height:80svh;">
+    <div class="legal-container" style="text-align:center; width:100%;">
+      <p class="eyebrow" style="margin-bottom:1rem;">ERROR 404</p>
+      <h1 class="legal-title" style="font-size:clamp(3rem, 7vw, 4.5rem); margin-bottom:1.5rem;">Page not found.</h1>
+      <p class="legal-intro" style="margin-inline:auto; max-width:44ch; margin-bottom:2.5rem;">
+        The page you are looking for doesn't exist, has been moved, or the link may be outdated.
+      </p>
+      <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+        <a href="index.html" class="btn btn-primary">
+          Back to Home
+          <svg class="btn-icon" aria-hidden="true" focusable="false"><use href="#icon-arrow-ne"/></svg>
+        </a>
+        <a href="index.html#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-lower" style="border-top: 1px solid var(--color-border); padding-top: 2rem;">
+        <p class="footer-copy">&copy; 2026 Waymark Studio. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+        </div>
+      </div>
+      <div class="footer-bottom-code">VEN-WAYM-3303</div>
+    </div>
+  </footer>
+
+</body>
+</html>
